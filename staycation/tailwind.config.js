@@ -5,8 +5,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        lexend: ['"Lexend Deca"', 'sans-serif'],
+      },
   },
   plugins: [],
-}
-
+}}
