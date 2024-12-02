@@ -1,0 +1,23 @@
+interface Locationimg {
+    src: string;
+    location: string;
+  }
+  
+  export default function Location({ src, location }: Locationimg) {
+    return (
+      <div
+        className="relative w-[279px] h-[488px] rounded-xl overflow-hidden shadow-lg hover:scale-105"
+        style={{
+          backgroundImage: `url(${src})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        {/* Centered Location Text */}
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white font-medium font-lexend text-3xl">
+          {location}
+        </div>
+      </div>
+    );
+  }
+  
