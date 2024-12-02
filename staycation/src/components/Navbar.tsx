@@ -1,5 +1,4 @@
 import holaimg from '../assets/holaimg.png';
-import phone from '../assets/phone.jpg'
 
 export default function Navbar() {
     return (
@@ -20,7 +19,6 @@ export default function Navbar() {
                 
                 {/* Right-side Icon */}
                 <div className="flex items-center">
-                    
                 </div>
             </div>
         </>
