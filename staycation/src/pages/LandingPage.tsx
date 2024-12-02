@@ -12,6 +12,7 @@ import hospitality from '../assets/hospitality.jpeg'
 import Features from "../components/Features";
 import Testimonials from "../components/Testimonials";
 import FAQ from "../components/FAQ";
+import Footer from "../components/Footer";
 
 export default function LandingPage() {
   return (
@@ -121,6 +122,9 @@ export default function LandingPage() {
         <h3 className="text-[#96501D] font-lexend ">View all</h3>
         <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m7 10l5 5m0 0l5-5"></path></svg>
         </div>
+        </div>
+        <div className="bg-[#0A142F]">
+        <Footer />
         </div>
       </div>
     </>

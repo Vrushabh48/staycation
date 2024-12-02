@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         lexend: ['"Lexend Deca"', 'sans-serif'],
         cinzel: ['Cinzel', 'serif'], // Add Cinzel as a font family
+        lato: ['Lato', 'sans-serif'],
       },
   },
   plugins: [],
