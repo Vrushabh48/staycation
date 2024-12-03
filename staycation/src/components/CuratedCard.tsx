@@ -6,12 +6,12 @@ interface CuratedCardProps {
 
 export default function CuratedCard({ name }: CuratedCardProps) {
   return (
-    <div className="relative rounded-xl overflow-hidden shadow-lg w-[300px] h-[400px] hover:scale-105">
+    <div className="relative rounded-xl overflow-hidden shadow-lg w-[300px] h-[400px]">
       {/* Background Image */}
       <img
         src={cardimg}
         alt="Luxury Villa"
-        className="w-full h-full object-cover brightness-110"
+        className="w-full h-full object-cover brightness-110 hover:scale-105"
       />
 
       {/* Text Section at the Bottom */}

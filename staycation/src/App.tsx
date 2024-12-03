@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import LandingPage from './pages/LandingPage'
+import Alllocations from "./pages/Alllocations"
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<LandingPage />}></Route>
+        <Route path='/locations' element={<Alllocations />}></Route>
       </Routes>
     </BrowserRouter>
     </>

@@ -123,7 +123,7 @@ export default function LandingPage() {
         <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m7 10l5 5m0 0l5-5"></path></svg>
         </div>
         </div>
-        <div className="bg-[#0A142F]">
+        <div className="bg-[#0A142F] text-white py-16 px-10">
         <Footer />
         </div>
       </div>
