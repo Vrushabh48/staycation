@@ -22,11 +22,11 @@ export default function Alllocations() {
       </div>
       <div className="flex flex-col items-center mb-32">
         <Frame name="Cabin 3BHK" src={img1} />
-        <div className="w-1 h-[235px] bg-white"></div>
+        <div className="w-1 h-[235px] bg-gradient-to-t from-transparent via-white to-transparent"></div>
         <Frame name="Sky" src={sky} />
-        <div className="w-1 h-[235px] bg-white"></div>
+        <div className="w-1 h-[235px] bg-gradient-to-t from-transparent via-white to-transparent"></div>
         <Frame name="Supreme" src={supreme} />
-        <div className="w-1 h-[235px] bg-white"></div>
+        <div className="w-1 h-[235px] bg-gradient-to-t from-transparent via-white to-transparent"></div>
         <Frame name="Vedhic Hills" src={vedhic} />
       </div>
       <div className="bg-[#0A142F] text-white py-16 px-10">
