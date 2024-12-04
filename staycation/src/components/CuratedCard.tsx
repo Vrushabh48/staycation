@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import cardimg from '../assets/cardimg.png';
 
 interface CuratedCardProps {
@@ -5,10 +6,11 @@ interface CuratedCardProps {
 }
 
 export default function CuratedCard({ name }: CuratedCardProps) {
+  const navigate = useNavigate();
   return (
     <div className="relative rounded-xl overflow-hidden shadow-lg w-[300px] h-[400px]">
       {/* Background Image */}
-      <img
+      <img onClick={()=> navigate('/product')}
         src={cardimg}
         alt="Luxury Villa"
         className="w-full h-full object-cover brightness-110 hover:scale-105"

@@ -8,7 +8,7 @@ export default function Booking() {
       <div className="mt-10 flex justify-between mr-48 font-josefin">
         {/* Booking Dates */}
         <div>
-          <h1 className="text-2xl font-lexend underline-offset-1 mb-4">
+          <h1 className="text-2xl font-lexend underline-offset-1 mb-4"> 
             Booking Dates
           </h1>
           <div className="flex gap-10">

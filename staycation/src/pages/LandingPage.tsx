@@ -46,13 +46,14 @@ export default function LandingPage() {
         <div className="bg-[#331906] text-white py-16 text-center relative">
           <div className="relative flex flex-col items-center">
             {/* Top White Line */}
-            <div className="w-1 h-[235px] bg-white"></div>
+            <div className="w-1 h-[235px] bg-gradient-to-t from-transparent via-white to-transparent"></div>
+
             {/* Text */}
             <h1 className="mt-10 text-4xl font-cinzel font-normal px-4 py-2 leading-10 drop-shadow-lg tracking-wider w-[500px] h-[142px]">
               Experience the elegance of a Perfect Staycation
             </h1>
             {/* Bottom White Line */}
-            <div className="w-1 h-[235px] bg-white mt-10"></div>
+            <div className="w-1 h-[235px] mt-10 bg-gradient-to-t from-transparent via-white to-transparent"></div>
           </div>
         </div>
 
@@ -93,13 +94,13 @@ export default function LandingPage() {
         </div>
 
         <div className="bg-[#331906] text-white relative flex flex-col items-center">
-          <div className="w-[1px] bg-white h-[120px] items-center border-b-2"></div>
+          <div className="w-1 bg-gradient-to-t from-transparent via-white to-transparent h-[120px] items-center border-b-2"></div>
         </div>
         <div className="bg-[#331906] text-white py-16 px-10">
         <h1 className="text-5xl font-normal font-cinzel w-[349px] text-white ml-20">Why Us?</h1>
         <div className="flex flex-col items-center">
           <Features />
-          <div className="w-1 h-[235px] bg-white mt-10"></div>
+          <div className="w-1 h-[235px] bg-gradient-to-t from-transparent via-white to-transparent mt-10"></div>
         </div>
         </div>
         <div className="bg-[#331906] text-white py-16 px-10">
@@ -111,18 +112,34 @@ export default function LandingPage() {
           <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m10 17l5-5m0 0l-5-5"></path></svg>
         </div>
         <div className="flex flex-col items-center">
-        <div className="w-1 h-[235px] bg-white mt-10"></div>
+        <div className="w-1 h-[235px] bg-gradient-to-t from-transparent via-white to-transparent mt-10"></div>
         </div>
         </div>
          {/** FAQ Section */}
-        <div className="bg-[#331906] text-white py-16 px-10">
-        <h1 className="text-5xl font-normal font-cinzel w-[349px] text-white ml-20">FAQS</h1>
+         <div id="faq-section" className="bg-[#331906] text-white py-16 px-10">
+        <h1 className="text-5xl font-normal font-cinzel w-[349px] text-white ml-20">
+          FAQS
+        </h1>
         <FAQ />
         <div className="flex ml-20 mt-5">
-        <h3 className="text-[#96501D] font-lexend ">View all</h3>
-        <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m7 10l5 5m0 0l5-5"></path></svg>
+          <h3 className="text-[#96501D] font-lexend ">View all</h3>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={24}
+            height={24}
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="m7 10l5 5m0 0l5-5"
+            ></path>
+          </svg>
         </div>
-        </div>
+      </div>
         <div className="bg-[#0A142F] text-white py-16 px-10">
         <Footer />
         </div>
