@@ -28,43 +28,46 @@ export default function FAQ(): JSX.Element {
     };
 
     return (
-        <div className="ml-24 mt-16 text-white w-[1174px] rounded-lg p-4 space-y-4">
-            {faqs.map((faq, index) => (
-                <div key={index} className="bg-[#996D51] rounded-lg">
-                    {/* Question Section */}
-                    <div
-                        className="flex justify-between items-center p-4 cursor-pointer"
-                        onClick={() => toggleFaq(index)}
-                    >
-                        <h2 className="font-lexend font-normal text-white">{faq.question}</h2>
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={24}
-                            height={24}
-                            viewBox="0 0 24 24"
-                            className={`transform transition-transform ${
-                                openIndex === index ? "rotate-180" : ""
-                            }`}
-                        >
-                            <path
-                                fill="none"
-                                stroke="currentColor"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                d="m7 10l5 5m0 0l5-5"
-                            ></path>
-                        </svg>
-                    </div>
+        <div className="mx-4 md:ml-24 mt-16 text-white max-w-[1174px] rounded-lg p-4 space-y-4">
+  {faqs.map((faq, index) => (
+    <div key={index} className="bg-[#996D51] rounded-lg">
+      {/* Question Section */}
+      <div
+        className="flex justify-between items-center p-4 cursor-pointer"
+        onClick={() => toggleFaq(index)}
+      >
+        <h2 className="font-lexend font-normal text-white text-sm md:text-base">
+          {faq.question}
+        </h2>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width={24}
+          height={24}
+          viewBox="0 0 24 24"
+          className={`transform transition-transform ${
+            openIndex === index ? "rotate-180" : ""
+          }`}
+        >
+          <path
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="m7 10l5 5m0 0l5-5"
+          ></path>
+        </svg>
+      </div>
 
-                    {/* Answer Section */}
-                    {openIndex === index && (
-                        <div className="p-4 bg-[#D8B49C] text-[#1A1B1D] rounded-b-lg">
-                            {faq.answer}
-                        </div>
-                    )}
-                </div>
-            ))}
+      {/* Answer Section */}
+      {openIndex === index && (
+        <div className="p-4 bg-[#D8B49C] text-[#1A1B1D] rounded-b-lg text-sm md:text-base">
+          {faq.answer}
         </div>
+      )}
+    </div>
+  ))}
+</div>
+
     );
 }

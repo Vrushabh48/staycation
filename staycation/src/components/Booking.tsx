@@ -1,11 +1,11 @@
 export default function Booking() {
   return (
-    <div className="bg-[#996E50] ml-[96px] px-10 py-10 rounded-lg">
+    <div className="bg-[#996E50] md:ml-[96px] ml-[40px] mt-12 px-10 py-10 rounded-lg">
       <div className="font-cinzel text-black text-3xl">
         <h1 className="font-extrabold">Request to Book</h1>
       </div>
 
-      <div className="mt-10 flex justify-between mr-48 font-josefin">
+      <div className="mt-10 grid grid-cols-1 md:flex justify-between md:mr-48 mr-52 font-josefin">
         {/* Booking Dates */}
         <div>
           <h1 className="text-2xl font-lexend underline-offset-1 mb-4"> 
@@ -75,7 +75,7 @@ export default function Booking() {
       </div>
 
       {/* Note */}
-      <p className="text-sm mt-4 w-[1174px] h-[40px] font-lexend">
+      <p className="text-sm mt-4 w-[358px] h-[120px] md:w-[1174px] md:h-[40px] font-lexend">
         *The villa does not have a confirmed booking for this period but at
         present someone has a 'hold'. Charges mentioned above are prices before
         taxes. Please enter your details on the booking form above and we will

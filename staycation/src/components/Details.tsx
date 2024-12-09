@@ -8,7 +8,7 @@ interface details{
 
 export default function Details({title, p1, p2, p3}: details) {
   return (
-    <div className="text-white w-[1174px] ml-32 mt-28">
+    <div className="text-white w-[325px] md:w-[1174px] ml-32 mt-28">
       <div>
         <h1 className="text-4xl font-cinzel font-normal">{title}</h1>
       </div>

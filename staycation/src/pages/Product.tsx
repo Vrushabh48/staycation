@@ -40,16 +40,21 @@ export default function Product(){
                     <span className="font-italiano font-normal">Luxury</span>
                 </h1>
             </div>
-            <div className="bg-[#331906] flex flex-col items-center">
-            <h1 className="text-white text-5xl font-cinzel z-10 space-x-1 mb-28">
-                    Oskar 5BHK
-                </h1>
-                <div className="w-[1177px] h-[81px] text-2xl text-white font-lexend flex text-center">
-                    <h1>Experience luxury at Villa Oscar in Lonavla, featuring spacious rooms, a private pool, and stunning views. Escape to tranquility and modern comfort in this serene retreat.</h1>
-                </div>
-                <Icons />
-                <ImgSection />
-            </div>
+            <div className="bg-[#331906] flex flex-col items-center py-16">
+  <h1 className="text-white text-5xl font-cinzel z-10 space-x-1 mb-10 md:mb-16">
+    Oskar 5BHK
+  </h1>
+  <div className="w-full md:w-[1177px] h-auto text-2xl text-white font-lexend text-center px-4">
+    <h1>
+      Experience luxury at Villa Oscar in Lonavla, featuring spacious rooms, a
+      private pool, and stunning views. Escape to tranquility and modern comfort
+      in this serene retreat.
+    </h1>
+  </div>
+  <Icons />
+  <ImgSection />
+</div>
+
             <h1 className="font-cinzel text-white text-4xl ml-40 mt-16 mb-8">Amenities</h1>
             <div className="bg-[#331906] flex flex-col items-center">
                 <Amenities />

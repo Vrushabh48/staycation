@@ -5,9 +5,9 @@ import pool from '../assets/pool.jpeg';
 
 export default function Room() {
     return (
-        <div className="grid grid-cols-2 gap-y-12 mt-24 ml-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-24 md:ml-10" >
             {/* Living Room */}
-            <div className="w-[422px] h-auto text-white ml-20">
+            <div className="w-[350px] md:w-[422px] h-auto text-white ml-20">
                 <h1 className="font-cinzel text-4xl mb-10">Living Room</h1>
                 <img className="rounded-2xl" src={livingroom} alt="Living Room" />
                 <ul className="font-lexend font-light text-xl mt-6 list-disc pl-5 space-y-4">
@@ -17,7 +17,7 @@ export default function Room() {
             </div>
 
             {/* Bedroom */}
-            <div className="w-[422px] h-auto text-white ml-20">
+            <div className="w-[350px] md:w-[422px] h-auto text-white ml-20">
                 <h1 className="font-cinzel text-4xl mb-10">Bedroom</h1>
                 <img className="rounded-2xl" src={bedroom} alt="Bedroom" />
                 <ul className="font-lexend font-light text-xl mt-6 list-disc pl-5 space-y-4">
@@ -28,7 +28,7 @@ export default function Room() {
             </div>
 
             {/* Entertainment & Games */}
-            <div className="w-[422px] h-auto text-white ml-20 mt-20">
+            <div className="w-[350px] md:w-[422px] h-auto text-white ml-20 mt-20">
                 <h1 className="font-cinzel text-4xl mb-10 w-[477px] h-[36px]">Entertainment & Games</h1>
                 <img className="rounded-2xl" src={entertainment} alt="Entertainment & Games" />
                 <ul className="font-lexend font-light text-xl mt-6 list-disc pl-5 space-y-4">
@@ -40,7 +40,7 @@ export default function Room() {
             </div>
 
             {/* Pool */}
-            <div className="w-[422px] h-auto text-white ml-20 mt-[70px]">
+            <div className="w-[350px] md:w-[422px] h-auto text-white ml-20 mt-[70px]">
                 <h1 className="font-cinzel text-4xl mb-10">Pool</h1>
                 <img className="rounded-2xl" src={pool} alt="Pool" />
                 <ul className="font-lexend font-light text-xl mt-6 list-disc pl-5 space-y-4">

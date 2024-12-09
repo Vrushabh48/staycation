@@ -17,7 +17,7 @@ export default function Alllocations() {
       >
         <Navbar />
       </div>
-      <div className="font-cinzel text-white text-5xl ml-[180px] mt-24 w-[398px] h-[38px] mb-9">
+      <div className="font-cinzel text-white text-3xl md:text-5xl ml-[180px] mt-24 w-[280px] md:w-[398px] h-[38px] mb-9">
         <h1>All Locations</h1>
       </div>
       <div className="flex flex-col items-center mb-32">

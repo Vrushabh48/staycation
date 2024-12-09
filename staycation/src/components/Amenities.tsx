@@ -2,7 +2,7 @@
 
 export default function Amenities(){
     return(
-        <div className="flex justify-between text-white w-[1092px] h-[95.58px] mt-10 font-inter font-normal"> 
+        <div className="grid grid-cols-2 md:flex justify-between text-white md:w-[1092px] md:h-[95.58px] mt-10 font-inter font-normal"> 
             <div className="flex flex-col gap-2">
                 <div className="">
                 <svg xmlns="http://www.w3.org/2000/svg" width={64} height={64} viewBox="0 0 24 24"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m12 19.51l.01-.011M2 8c6-4.5 14-4.5 20 0M5 12c4-3 10-3 14 0M8.5 15.5c2.25-1.4 4.75-1.4 7 0"></path></svg>
